@@ -1,0 +1,35 @@
+    .Main_container{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the container is centered vertically */
+    margin: 0; /* Remove default body margin */
+    flex-direction: row;
+    column-gap: 5rem;
+    row-gap: 2rem;
+    }
+  
+  .container{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the container is centered vertically */
+    margin: 0; /* Remove default body margin */
+    flex-direction: column;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.premium_row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
